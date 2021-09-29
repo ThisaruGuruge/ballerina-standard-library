@@ -18,7 +18,7 @@ CODECOV_BADGE_URL = "https://codecov.io/gh/"
 
 ballerina_bot_token = os.environ["packagePAT"]
 
-badge_green_color = "success"
+badge_green_color = "64c362"
 badge_yellow_color = "yellow"
 
 def main():
