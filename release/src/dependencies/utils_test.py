@@ -47,11 +47,6 @@ class TestDashboardCreation(unittest.TestCase):
         self.assertEqual(expected, actual)
 
 
-    def test_get_bug_query(self):
-        expected = ""
-        actual = utils.get_bug_query(JAVA_ARRAYS_MODULE)
-
-
     def test_get_bugs_badge(self):
         expected = "[![Bugs](https://img.shields.io/github/issues-search/ballerina-platform/ballerina-standard-library?query=is%3Aopen+label%3Amodule%2Fjava.arrays+label%3AType%2FBug&label=&color=30c955&logo=github)](https://github.com/ballerina-platform/ballerina-standard-library/issues?q=is%3Aopen+label%3Amodule%2Fjava.arrays+label%3AType%2FBug)"
         actual = utils.get_bugs_badge(JAVA_ARRAYS_MODULE)
