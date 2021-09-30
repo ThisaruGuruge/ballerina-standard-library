@@ -1,7 +1,7 @@
 from sys import modules
 import unittest
 
-from release.src.dependencies import utils
+import utils
 
 IO_MODULE = "module-ballerina-io"
 JAVA_ARRAYS_MODULE = "module-ballerina-jballerina.java.arrays"

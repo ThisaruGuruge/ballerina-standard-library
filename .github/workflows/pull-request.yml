@@ -26,4 +26,6 @@ jobs:
             -   name: Build the Package
                 env:
                     BALLERINA_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                run: python -m unittest release/src/de[endencies/utils_test.py
+                run: |
+                    cd release/src/dependencies
+                    python -m unittest utils_test.py
